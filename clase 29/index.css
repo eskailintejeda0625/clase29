@@ -1,0 +1,53 @@
+*{ 
+    margin: 0; /*margen es para desde el exteriro*/
+    padding: o; /*padding es para el extecion */
+    box-sizing: border-box; /*para que no se desborde*/
+
+}
+
+.titilo{ 
+    width: 100%;/*para que ocupe todo el ancho*/
+    display: flex;/*para que almasene en linea*/
+    justify-content: center;/*para que almacene en linea*/
+    align-items:  center;
+   padding: 4px;
+   background: black; /*color de fondo*/
+   color: white; /*color de letras*/
+
+}
+.contenededogrid{
+    width: 100%;/*para que ocupe todo el archivo*/
+    display: grid;/*para que almacene en linea*/
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-gap: 10px;
+    padding: 20px;
+    background: black;
+    color: white;
+}
+
+.itemgrid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conenedorinformacion {
+
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+    
+
+
